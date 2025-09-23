@@ -10,10 +10,11 @@ int main()
     if (x < 1){
         cout << "Invalid. Bilangan yang dimasukkan salah!";
     } else if (x % 2 == 0 && x != 2) {
-            cout << x << " bukan bilangan prima.";
+            cout << x << " Tidak bilangan prima.";
     } else {
-            cout << x << " mungkin bilangan prima.";
+            cout << x << " bilangan prima.";
     }
 
     return 0;
     }
+
