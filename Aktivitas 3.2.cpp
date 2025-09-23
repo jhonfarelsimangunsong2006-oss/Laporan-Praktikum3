@@ -11,7 +11,7 @@ int main (){
     else if (a < 2){
         cout << " tidak bilangan prima.";
     }
-    else if (a == 2 || a == 3 || a == 5 || a == 7 || a == 11 || a == 13){
+    else if (a == 2 || a == 3 || a == 5 || a == 7 || a == 11 || a == 13 || a == 17){
         cout << "  bilangan prima.";
     }
     else if (a % 2 == 0){
@@ -39,4 +39,5 @@ int main (){
         cout << a << " adalah bilangan prima.";
     }
 return 0;}
+
 
