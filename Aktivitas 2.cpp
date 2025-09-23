@@ -12,10 +12,11 @@ int main()
     } else if (a % 2 == 0 && a != 2) {
             cout << a << " Tidak bilangan prima.";
     } else {
-            cout << a << " bilangan prima.";
+            cout << a << " mungkin bilangan prima.";
     }
 
     return 0;
     }
+
 
 
