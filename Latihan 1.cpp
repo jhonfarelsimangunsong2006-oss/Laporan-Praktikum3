@@ -8,7 +8,7 @@ int main()
 	cout << "Masukkan sebuah bilangan bulat: ";
 	cin >> a;
 		if (a == 0){
-		cout << " bilangan 0.";
+		cout << " bilangan netral.";
 		}
 		else if (a < 0){
 		cout << "  bilangan negatif.";
@@ -21,3 +21,4 @@ int main()
 		}
 return 0;
 }
+
