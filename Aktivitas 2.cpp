@@ -4,17 +4,18 @@ using namespace std;
 int main()
 {
 
-    int x;
+    int a;
     cout << "Masukkan bilangan bulat positif: ";
-    cin >> x;
-    if (x < 1){
+    cin >> a;
+    if (a < 1){
         cout << "Invalid. Bilangan yang dimasukkan salah!";
-    } else if (x % 2 == 0 && x != 2) {
-            cout << x << " Tidak bilangan prima.";
+    } else if (a % 2 == 0 && a != 2) {
+            cout << a << " Tidak bilangan prima.";
     } else {
-            cout << x << " bilangan prima.";
+            cout << a << " bilangan prima.";
     }
 
     return 0;
     }
+
 
