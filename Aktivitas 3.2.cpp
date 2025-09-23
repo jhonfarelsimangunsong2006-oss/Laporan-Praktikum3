@@ -32,7 +32,11 @@ int main (){
     else if (a % 13 == 0){
         cout << a << " bukan bilangan prima.";
     }
+    else if (a % 17 == 0){
+        cout << a << " bukan bilangan prima.";
+    }
     else{
         cout << a << " adalah bilangan prima.";
     }
 return 0;}
+
