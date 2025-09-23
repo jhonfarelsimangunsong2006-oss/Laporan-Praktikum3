@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int A=15, B=4, temp;
+	int A=23, B=33, temp;
 	cout << "Nilai A sebelum ditukar: " << A << ", "<< "Nilai B sebelum ditukar: " << B << endl;
 	temp = A;
 	A = B;
@@ -11,3 +11,4 @@ int main()
 	return 0;
 
 }
+
