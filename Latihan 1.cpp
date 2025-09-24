@@ -8,17 +8,20 @@ int main()
 	cout << "Masukkan sebuah bilangan bulat: ";
 	cin >> a;
 		if (a == 0){
-		cout << " bilangan netral.";
+		cout << " bilangan netral"<<endl;
 		}
-		else if (a < 0){
-		cout << "  bilangan negatif.";
+		 if (a < 0){
+		cout << "  bilangan negatif"<<endl;
+		} if (a > 0){
+		cout << "  bilangan positif"<<endl;
 		}
-		else if (a % 2 == 0){
-		cout << "  bilangan genap.";
+		 if (a % 2 == 0){
+		cout << "  bilangan genap";
 		}
 		else{
-		cout << "  bilangan ganjil.";
+		cout << "  bilangan ganjil";
 		}
 return 0;
 }
+
 
